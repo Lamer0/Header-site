@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header_line{
+  border-bottom: 3px solid #f849e8;
+  height: 30px;
+  background: #d3d3d3;
+  margin: 20px ;
+}
+.header_items{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.header_menu{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_LOGO {
+  vertical-align: middle;
+  content: url("./img/студика.jpg");
+  height: 80px;
+  border-radius: 46px;
+}
+.button_locate{
+  margin-left: 10px;
+  vertical-align: middle;
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(25,25,25,0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+  color: #232323;
+  font-size: 0;
+  height: 26px;
+}
+.header_label{
+  padding-left: 5px;
+  font-size: 15px;
+}
+.inner-addon {
+  position: relative;
+  margin: 10px 0;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding-top: 15px;
+  border: 1px solid red;
+  left:  0px;
+}
+.left-addon input  { padding-left:  30px; }
+
+.inner-addon .header_input {
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+  color: #232323;
+  flex-basis: 10%;
+  font-size: 16px;
+  height: 50px;
+  display: inline-block;
+}
+
+
+button {
+  border: none;
+  background: none;
+}
+
